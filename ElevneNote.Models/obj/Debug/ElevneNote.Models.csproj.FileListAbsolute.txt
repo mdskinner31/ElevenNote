@@ -1,0 +1,16 @@
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\ElevneNote.Models.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\ElevneNote.Models.pdb
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\obj\Debug\ElevneNote.Models.csprojAssemblyReference.cache
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\obj\Debug\ElevneNote.Models.csproj.CoreCompileInputs.cache
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\obj\Debug\ElevneNote.Models.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\obj\Debug\ElevneNote.Models.pdb
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\ElevneNote.Models.dll.config
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\EntityFramework.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\EntityFramework.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\obj\Debug\ElevneNote.Models.csproj.CopyComplete
