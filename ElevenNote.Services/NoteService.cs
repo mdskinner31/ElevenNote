@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace ElevenNote.Services
 {
-    public class NoteServices
+    public class NoteService
     {
         private readonly Guid _userId;
 
-        public NoteServices(Guid userId)
+        public NoteService(Guid userId)
         {
             _userId = userId;
         }
