@@ -38,3 +38,6 @@ C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\b
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.Cors.dll
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\Microsoft.Owin.Cors.xml
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.InitialCreate.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.cache
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.categorycolumns.resources

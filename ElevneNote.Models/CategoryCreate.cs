@@ -8,5 +8,7 @@ namespace ElevneNote.Models
 {
    public class CategoryCreate
     {
+        public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
     }
 }

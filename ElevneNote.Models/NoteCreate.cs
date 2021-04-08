@@ -14,8 +14,8 @@ namespace ElevneNote.Models
         [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
         public string Title { get; set; }
 
-       // [Required]
-       // public string Category { get; set; }
+        [Required]
+        public int CategoryId { get; set; }
 
         [MaxLength(8000)]
         public string Content { get; set; }
