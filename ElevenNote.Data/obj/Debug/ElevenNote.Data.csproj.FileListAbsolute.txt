@@ -33,3 +33,8 @@ C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\b
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CopyComplete
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.Cors.xml

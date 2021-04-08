@@ -20,3 +20,17 @@ C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Servic
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll.config
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\ElevneNote.Models.pdb
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\ElevneNote.Models.dll.config
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.Owin.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\Owin.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Http.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.Owin.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Http.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Services\bin\Debug\System.Web.Http.Cors.xml

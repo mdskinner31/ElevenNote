@@ -14,3 +14,17 @@ C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\obj\Debug\ElevneNote.Models.csproj.CopyComplete
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.Owin.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Owin.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\System.Web.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\System.Web.Http.dll
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.Owin.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\System.Web.Http.xml
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevneNote.Models\bin\Debug\System.Web.Http.Cors.xml
