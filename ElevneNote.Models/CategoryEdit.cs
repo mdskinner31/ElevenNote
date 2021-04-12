@@ -9,19 +9,20 @@ namespace ElevneNote.Models
 {
     public class CategoryEdit
     {
-        [Required]
+        
         public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
 
-        private string category;
+        //private string category;
 
-        public string GetCategory()
-        {
-            return category;
-        }
+        //public string GetCategory()
+        //{
+        //    return category;
+        //}
 
-        public void SetCategory(string value)
-        {
-            category = value;
-        }
+        //public void SetCategory(string value)
+        //{
+        //    category = value;
+        //}
     }
 }

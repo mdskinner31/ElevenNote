@@ -3,10 +3,22 @@ namespace ElevenNote.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class Initial : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.Category",
+                c => new
+                    {
+                        CategoryId = c.Int(nullable: false, identity: true),
+                        CategoryName = c.String(),
+                        Noteid = c.Int(nullable: false),
+                    })
+                .PrimaryKey(t => t.CategoryId)
+                .ForeignKey("dbo.Note", t => t.Noteid, cascadeDelete: true)
+                .Index(t => t.Noteid);
+            
             CreateTable(
                 "dbo.Note",
                 c => new
@@ -15,6 +27,8 @@ namespace ElevenNote.Data.Migrations
                         OwnerId = c.Guid(nullable: false),
                         Title = c.String(nullable: false),
                         Content = c.String(nullable: false),
+                        CategoryId = c.Int(nullable: false),
+                        CategoryName = c.String(),
                         CreatedUtc = c.DateTimeOffset(nullable: false, precision: 7),
                         ModifiedUtc = c.DateTimeOffset(precision: 7),
                     })
@@ -98,16 +112,19 @@ namespace ElevenNote.Data.Migrations
             DropForeignKey("dbo.IdentityUserLogin", "ApplicationUser_Id", "dbo.ApplicationUser");
             DropForeignKey("dbo.IdentityUserClaim", "ApplicationUser_Id", "dbo.ApplicationUser");
             DropForeignKey("dbo.IdentityUserRole", "IdentityRole_Id", "dbo.IdentityRole");
+            DropForeignKey("dbo.Category", "Noteid", "dbo.Note");
             DropIndex("dbo.IdentityUserLogin", new[] { "ApplicationUser_Id" });
             DropIndex("dbo.IdentityUserClaim", new[] { "ApplicationUser_Id" });
             DropIndex("dbo.IdentityUserRole", new[] { "ApplicationUser_Id" });
             DropIndex("dbo.IdentityUserRole", new[] { "IdentityRole_Id" });
+            DropIndex("dbo.Category", new[] { "Noteid" });
             DropTable("dbo.IdentityUserLogin");
             DropTable("dbo.IdentityUserClaim");
             DropTable("dbo.ApplicationUser");
             DropTable("dbo.IdentityUserRole");
             DropTable("dbo.IdentityRole");
             DropTable("dbo.Note");
+            DropTable("dbo.Category");
         }
     }
 }

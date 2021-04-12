@@ -10,109 +10,121 @@ namespace ElevenNote.Services
 {
     public class CategoryService
     {
-        
-            private readonly Guid _userId;
 
-            public CategoryService(Guid userId)
+        private readonly Guid _userId;
+
+        public CategoryService(Guid userId)
+        {
+            _userId = userId;
+        }
+
+
+        public bool CreateCategory(CategoryCreate cmodel)
+        {
+            var centity =
+                new Category()
+                {
+
+                     CategoryId = cmodel.CategoryId,
+                    CategoryName = cmodel.CategoryName
+
+                };
+
+            using (var cctx = new ApplicationDbContext())
             {
-                _userId = userId;
+                cctx.Category.Add(centity);
+                return cctx.SaveChanges() == 1;
             }
+        }
 
+        public IEnumerable<CategoryListItem> GetCategory()
+        {
+            using (var cctx = new ApplicationDbContext())
+            {
+                var query =
+                    cctx    
+                     // .Notes
+                       .Category
+                        .Where(e => e.CategoryId == e.CategoryId)
+                        .Select(
+                            e =>
+                                new CategoryListItem
+                                {
+                                        //NoteId = e.NoteId,
+                                        // Title = e.Title,
+                                        CategoryId = e.CategoryId,
+                                        CategoryName = e.CategoryName,
+                                        // CreatedUtc = e.CreatedUtc
+                                    }
+                        );
 
-            public bool CreateCategory(CategoryCreate cmodel)
+                return query.ToArray();
+            }
+        }
+
+        public CategoryDetail GetCategoryById(int categoryId)
+        {
+            using (var cctx = new ApplicationDbContext())
             {
                 var centity =
-                    new Category()
+                    cctx
+                        // .Notes
+                        .Category
+                        .Single
+                        (e => e.CategoryId == categoryId);
+                       // && e.NoteId == id);
+                return
+                    new CategoryDetail
                     {
-                        
-                        CategoryId = cmodel.CategoryId,
-                        CategoryName = cmodel.CategoryName
-                        
+                       // NoteId = centity.NoteId,
+                       // Title = centity.Title,
+                       // Content = centity.Content,
+                        CategoryId = centity.CategoryId,
+                        CategoryName = centity.CategoryName,
+                      //  CreatedUtc = centity.CreatedUtc,
+                        // ModifiedUtc = entity.ModifiedUtc
                     };
-
-                using (var ctx = new ApplicationDbContext())
-                {
-                    ctx.Category.Add(centity);
-                    return ctx.SaveChanges() == 1;
-                }
             }
+        }
 
-            public IEnumerable<NoteListItem> GetCategory()
+        public bool UpdateCategory(CategoryEdit cmodel)
+        {
+            using (var cctx = new ApplicationDbContext())
             {
-                using (var ctx = new ApplicationDbContext())
-                {
-                    var query =
-                        ctx
-                            .Notes
-                            .Where(e => e.OwnerId == _userId)
-                            .Select(
-                                e =>
-                                    new NoteListItem
-                                    {
-                                        NoteId = e.NoteId,
-                                        Title = e.Title,
-                                        CategoryId = e.CategoryId,
-                                        CreatedUtc = e.CreatedUtc
-                                    }
-                            );
+                var centity =
+                    cctx
+                       // .Notes
+                       .Category
+                        .Single(e => e.CategoryId == cmodel.CategoryId);
+                        //&& e.OwnerId == CategoryId);
 
-                    return query.ToArray();
-                }
+                // entity.Title = cmodel.Title;
+                // entity.Content = cmodel.Content;
+                centity.CategoryId = cmodel.CategoryId;
+                centity.CategoryName = cmodel.CategoryName;
+                //centity.ModifiedUtc = DateTimeOffset.UtcNow;
+
+                return cctx.SaveChanges() == 1;
             }
+        }
 
-            public NoteDetail GetNoteByCategoryId(int categoryId)
+        public bool DeleteCategory(int categoryId)
+        {
+            using (var cctx = new ApplicationDbContext())
             {
-                using (var ctx = new ApplicationDbContext())
-                {
-                    var entity =
-                        ctx
-                            .Notes
-                            .Single(e => e.NoteId == categoryId && e.OwnerId == _userId);
-                    return
-                        new NoteDetail
-                        {
-                            NoteId = entity.NoteId,
-                            Title = entity.Title,
-                            Content = entity.Content,
-                            CategoryId = entity.CategoryId,
-                            CreatedUtc = entity.CreatedUtc,
-                            ModifiedUtc = entity.ModifiedUtc
-                        };
-                }
+                var centity =
+                    cctx
+                        // .Notes
+                        .Category
+                        .Single(e => e.CategoryId == categoryId); //&& e.OwnerId == CategoryId);
+
+                cctx.Category.Remove(centity);
+
+                return cctx.SaveChanges() == 1;
             }
 
-            public bool UpdateCategory(CategoryEdit cmodel)
-            {
-                using (var ctx = new ApplicationDbContext())
-                {
-                    var entity =
-                        ctx
-                            .Notes
-                            .Single(e => e.CategoryId == cmodel.CategoryId && e.OwnerId == _userId);
 
-                   // entity.Title = cmodel.Title;
-                   // entity.Content = cmodel.Content;
-                    entity.CategoryId = cmodel.CategoryId;
-                    entity.ModifiedUtc = DateTimeOffset.UtcNow;
+        }
 
-                    return ctx.SaveChanges() == 1;
-                }
-            }
-
-            public bool DeleteCategory(int categoryId)
-            {
-                using (var ctx = new ApplicationDbContext())
-                {
-                    var entity =
-                        ctx
-                            .Notes
-                            .Single(e => e.CategoryId == categoryId && e.OwnerId == _userId);
-
-                    ctx.Notes.Remove(entity);
-
-                    return ctx.SaveChanges() == 1;
-                }
-            }
-        
     }
 }

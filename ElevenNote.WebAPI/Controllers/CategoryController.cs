@@ -16,15 +16,15 @@ namespace ElevenNote.WebAPI.Controllers
         public IHttpActionResult Get()
         {
             CategoryService categoryService = CreateCategoryService();
-            var notes = categoryService.GetCategory();
-            return Ok(notes);
+            var category = categoryService.GetCategory();
+            return Ok(category);
         }
 
         public IHttpActionResult Get(int categoryId)
         {
             CategoryService categoryService = CreateCategoryService();
-            var notes = categoryService.GetNoteByCategoryId(categoryId);
-            return Ok(notes);
+            var category = categoryService.GetCategoryById(categoryId);
+            return Ok(category);
         }
 
         public IHttpActionResult Post(CategoryCreate category)

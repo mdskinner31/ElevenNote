@@ -38,6 +38,12 @@ C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\b
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.Cors.dll
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\Microsoft.Owin.Cors.xml
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.Cors.xml
-C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.InitialCreate.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.Initial.resources
 C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.cache
-C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.categorycolumns.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.NeedNewMigration.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.DbChanged.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.FixNoteIdNull.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.MultipleCategory.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.JustCategoryListings.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.CategoryListings.resources
+C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.CategorysById.resources

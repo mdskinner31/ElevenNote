@@ -95,13 +95,37 @@
   <ItemGroup>
     <Compile Include="Category.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\202104071521545_InitialCreate.cs" />
-    <Compile Include="Migrations\202104071521545_InitialCreate.Designer.cs">
-      <DependentUpon>202104071521545_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202104120240073_Initial.cs" />
+    <Compile Include="Migrations\202104120240073_Initial.Designer.cs">
+      <DependentUpon>202104120240073_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202104081715252_categorycolumns.cs" />
-    <Compile Include="Migrations\202104081715252_categorycolumns.Designer.cs">
-      <DependentUpon>202104081715252_categorycolumns.cs</DependentUpon>
+    <Compile Include="Migrations\202104121337558_NeedNewMigration.cs" />
+    <Compile Include="Migrations\202104121337558_NeedNewMigration.Designer.cs">
+      <DependentUpon>202104121337558_NeedNewMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104121437111_DbChanged.cs" />
+    <Compile Include="Migrations\202104121437111_DbChanged.Designer.cs">
+      <DependentUpon>202104121437111_DbChanged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104121444399_FixNoteIdNull.cs" />
+    <Compile Include="Migrations\202104121444399_FixNoteIdNull.Designer.cs">
+      <DependentUpon>202104121444399_FixNoteIdNull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104121503027_MultipleCategory.cs" />
+    <Compile Include="Migrations\202104121503027_MultipleCategory.Designer.cs">
+      <DependentUpon>202104121503027_MultipleCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104121526436_JustCategoryListings.cs" />
+    <Compile Include="Migrations\202104121526436_JustCategoryListings.Designer.cs">
+      <DependentUpon>202104121526436_JustCategoryListings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104121530441_CategoryListings.cs" />
+    <Compile Include="Migrations\202104121530441_CategoryListings.Designer.cs">
+      <DependentUpon>202104121530441_CategoryListings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104121537558_CategorysById.cs" />
+    <Compile Include="Migrations\202104121537558_CategorysById.Designer.cs">
+      <DependentUpon>202104121537558_CategorysById.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
@@ -112,11 +136,29 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202104071521545_InitialCreate.resx">
-      <DependentUpon>202104071521545_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202104120240073_Initial.resx">
+      <DependentUpon>202104120240073_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104081715252_categorycolumns.resx">
-      <DependentUpon>202104081715252_categorycolumns.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202104121337558_NeedNewMigration.resx">
+      <DependentUpon>202104121337558_NeedNewMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104121437111_DbChanged.resx">
+      <DependentUpon>202104121437111_DbChanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104121444399_FixNoteIdNull.resx">
+      <DependentUpon>202104121444399_FixNoteIdNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104121503027_MultipleCategory.resx">
+      <DependentUpon>202104121503027_MultipleCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104121526436_JustCategoryListings.resx">
+      <DependentUpon>202104121526436_JustCategoryListings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104121530441_CategoryListings.resx">
+      <DependentUpon>202104121530441_CategoryListings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104121537558_CategorysById.resx">
+      <DependentUpon>202104121537558_CategorysById.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
